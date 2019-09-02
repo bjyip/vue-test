@@ -12,7 +12,7 @@
                             :fetch-suggestions="fetchSuggestions"
                             :class="{'is-editable': item.editable}"
                             @dblclick.native="dblclick($event, item)"
-                            @blur="blur($event, item)"
+                            @blur="blur($event, item, index, prop.row.headmaster)"
                             @keyup.native.ctrl.67="ctrlC($event, item)"
                         ></el-autocomplete>
                     </el-row>
@@ -36,7 +36,7 @@
                             :trigger-on-focus="item.editable"
                             :fetch-suggestions="fetchSuggestions"
                             @dblclick.native="dblclick($event, item)"
-                            @blur="blur($event, item)"
+                            @blur="blur($event, item, index, prop.row.chinese)"
                             @keyup.native.ctrl.67="ctrlC($event, item)"
                         ></el-autocomplete>
                     </el-row>
@@ -98,8 +98,12 @@ export default {
             this.banjis[index][type].push(this.copyValue);
             this.setBtnInput();
         },
-        blur(e) {
+        blur(e, item, index, arr) {
             console.log('blur')
+            if (Object.keys(item).length === 0 || item.name === '') {
+                arr.splice(index, 1);
+                return;
+            }
             e.target.setAttribute('type', 'button');
             this.disabled = true;
         },
