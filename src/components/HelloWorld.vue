@@ -91,6 +91,13 @@ export default {
                 console.log(item)
                 this.copyValue = _.cloneDeep(item);
             }
+            this.$nextTick(() => {
+                const autocompleteNode = document.querySelectorAll('.el-autocomplete');
+                autocompleteNode.forEach(input => {
+                    const inputNode = input.querySelector('input');
+                    inputNode.onpaste = (() => false);
+                });
+            });
         },
         ctrlV(e, index, type) {
             console.log('ctrlV')
