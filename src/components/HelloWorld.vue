@@ -118,8 +118,8 @@ export default {
                 setTimeout(() => {
                     e.target.select();
                     document.execCommand('delete');
-                    // this.banjis[index][type].push(copyValue);
                     this.banjis[index][type].splice(this.banjis[index][type].length - 1, 0, copyValue)
+                    this.setBtnInput();
                 }, 300);
             }
         },
