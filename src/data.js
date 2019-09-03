@@ -5,72 +5,102 @@ export default{
             headmaster: [
                 {
                     name: "翻云镇",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
 
             chinese: [
                 {
                     name: "张三",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             math: [
                 {
                     name: "欧阳",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             english: [
                 {
                     name: "网易",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             physics: [
                 {
                     name: "张三",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             chemistry: [
                 {
                     name: "里斯",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             biology: [
                 {
                     name: "王五",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             history: [
                 {
                     name: "雪梨",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             geography: [
                 {
                     name: "苹果",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             politics: [
                 {
                     name: "西瓜",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ]
         },
@@ -79,72 +109,102 @@ export default{
             headmaster: [
                 {
                     name: "欧阳",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
 
             chinese: [
                 {
                     name: "六十一",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             math: [
                 {
                     name: "欧阳",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             english: [
                 {
                     name: "网易",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             physics: [
                 {
                     name: "张三",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             chemistry: [
                 {
                     name: "里斯",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             biology: [
                 {
                     name: "王五",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             history: [
                 {
                     name: "雪梨",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             geography: [
                 {
                     name: "苹果",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ],
             politics: [
                 {
                     name: "西瓜",
-                    iphone: 15692402222,
-                    editable: false
+                    phone: 15692402222,
+                    buttonInput: true
+                },
+                {
+                    name: ''
                 }
             ]
         }
