@@ -114,7 +114,7 @@ export default {
         onpaste(e, index, type) {
             const pasteValue = e.clipboardData.getData('text/plain');
             const copyValue =  _.cloneDeep(this.copyValue);
-            if (pasteValue.indexOf(`/${copyValue.phone}`) > -1) {
+            if (pasteValue === `${copyValue.name}/${copyValue.phone}`) {
                 setTimeout(() => {
                     e.target.select();
                     document.execCommand('delete');
