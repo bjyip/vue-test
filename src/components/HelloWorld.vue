@@ -57,6 +57,11 @@
                 </template>
             </el-table-column>
         </el-table>
+        <input type="button"
+            value="123"
+            @keydown="keydown"
+            @keyup="keyup"
+        >
     </div>
 </template>
 
@@ -70,12 +75,29 @@ export default {
         return Object.assign(_data, {
             currentValue: '',
             copyValue: {},
+            isCtrl: false,
+            isC: false
         })
     },
     mounted() {
         this.setBtnInput();
     },
     methods: {
+        keydown(e) {
+            if (e.keyCode === 17 || e.keyCode === 91) {
+                this.isCtrl = true;
+            }
+            if (e.keyCode === 67) {
+                this.isC = true;
+            }
+            if (this.isCtrl && this.isC) {
+                console.log('ctrlC')
+            }
+        },
+        keyup() {
+            console.log('up')
+            this.isCtrl = this.isC = false;
+        },
         fetchSuggestions(queryString, callback) {
             if (!queryString) {
                 return;
