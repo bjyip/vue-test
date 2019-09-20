@@ -80,7 +80,7 @@ export default {
         })
     },
     mounted() {
-        this.setBtnInput();
+        this.setBtnInput(); 
     },
     methods: {
         keydown(e) {
